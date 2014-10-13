@@ -10,6 +10,8 @@ namespace WebApplication4.Controllers
     {
         public ActionResult Index()
         {
+            ViewData["Data"] = "Hellow from controller";
+
             return View();
         }
 
