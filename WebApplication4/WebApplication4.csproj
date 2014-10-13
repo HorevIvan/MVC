@@ -98,6 +98,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Properties\PublishProfiles\simple-mvc.pubxml" />
+    <Content Include="Views\Shared\_LayoutWithMenu.cshtml" />
+    <Content Include="Views\Home\WithMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
