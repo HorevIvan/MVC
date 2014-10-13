@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication4.Models;
 
 namespace WebApplication4.Controllers
 {
@@ -18,6 +19,17 @@ namespace WebApplication4.Controllers
         public ActionResult WithMenu()
         {
             return View();
+        }
+
+        public ActionResult Cars()
+        {
+            var list = new CarList()
+            {
+                new Car{ Name = "Logan" },
+                new Car{ Name = "Note" },
+            };
+
+            return View(list);
         }
     }
 }
